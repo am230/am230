@@ -1,1 +1,4 @@
-alert("Hello from payload.js!")
+fetch('/logout', {
+    method: 'POST',
+    credentials: 'include'
+});
